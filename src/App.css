@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background: rgba(0,0,0,1);
+}
+
+.navbar{
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-item{
+  transition: all 0.2s ease-in;
+}
+.nav-item-active{
+  background-color: blueviolet;
+}
+.nav-item:hover{
+  background-color: blueviolet;
+}
+
+img{
+  transition: all 0.2s ease-in;
+}
+
+.section-img{
+  display: none;
+}
+
+.active{
+  display:block !important;
+}
+
